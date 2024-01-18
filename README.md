@@ -101,14 +101,13 @@ typedef struct listint_s
 } listint_t;
 ```
 
-Keep this section separate from the above code.
 
 Pair programming allows team members to share quickly, making them less likely to have hidden agendas from each other. This helps pair programmers learn to communicate more easily, raising the communication bandwidth and frequency within the project, increasing overall information flow within the team.
 
 ## Project Details
 
 ### Author or Coordinator
-- **Name:** Alexandre Gautier
+- **Name:** `Alexandre Gautier`
 - **Weight:** 2
 
 ### Team Members

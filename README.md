@@ -1,5 +1,74 @@
 # Sorting Algorithms & Big O Analysis
 
+
+## Sorting Algorithms:
+
+### Definition:
+Sorting algorithms are a set of procedures that arrange elements in a specific order. The order can be ascending or descending based on some defined criteria, such as numerical or lexicographical order.
+
+### Types of Sorting Algorithms:
+1. **Bubble Sort:**
+   - Compares adjacent elements and swaps them if they are in the wrong order.
+   - Repeatedly passes through the list until no swaps are needed.
+
+2. **Selection Sort:**
+   - Divides the list into two parts: a sorted and an unsorted subarray.
+   - Repeatedly selects the minimum (or maximum) element from the unsorted subarray and swaps it with the first unsorted element.
+
+3. **Insertion Sort:**
+   - Builds the sorted array one element at a time.
+   - Takes each element and inserts it into its correct position in the already sorted part of the array.
+
+4. **Merge Sort:**
+   - Divides the array into two halves, recursively sorts them, and then merges them back together.
+   - Utilizes a "divide and conquer" strategy.
+
+5. **Quick Sort:**
+   - Chooses a 'pivot' element and partitions the array into two subarrays.
+   - Elements less than the pivot go to one subarray, while elements greater than the pivot go to the other.
+   - Recursively applies the same process to the subarrays.
+
+6. **Heap Sort:**
+   - Builds a max heap (for ascending order) or a min heap (for descending order).
+   - Extracts the root (which is the maximum or minimum) repeatedly to get a sorted array.
+
+### Selection Criteria:
+- The choice of a sorting algorithm depends on factors such as the size of the data set, stability requirements, and whether the data is partially sorted or completely unsorted.
+
+## Big O Analysis:
+
+### Definition:
+Big O notation is a mathematical notation used to describe the performance or complexity of an algorithm. It provides an upper bound on the growth rate of the function that represents the algorithm's efficiency.
+
+### Types of Time Complexities:
+1. **O(1) - Constant Time:**
+   - The algorithm's performance is constant, regardless of the size of the input.
+
+2. **O(log n) - Logarithmic Time:**
+   - Common in algorithms that divide the problem into smaller subproblems and solve them.
+
+3. **O(n) - Linear Time:**
+   - The runtime of the algorithm grows linearly with the size of the input.
+
+4. **O(n log n) - Linearithmic Time:**
+   - Common in efficient sorting algorithms like Merge Sort and Heap Sort.
+
+5. **O(n^2) - Quadratic Time:**
+   - Performance is directly proportional to the square of the size of the input data.
+
+6. **O(2^n) - Exponential Time:**
+   - Performance doubles with each additional element in the input set.
+
+### Importance:
+- Big O analysis helps in comparing and contrasting the efficiency of algorithms.
+- It provides insights into how an algorithm scales with input size.
+
+### Considerations:
+- Optimizing algorithms for time complexity might result in increased space complexity and vice versa.
+- Big O notation expresses the upper bound; actual performance may be better but won't exceed the given complexity.
+
+Both Sorting Algorithms and Big O Analysis are crucial concepts for software engineers and computer scientists, influencing the design and implementation of efficient algorithms. Understanding these concepts is essential for writing code that performs well, especially when dealing with large datasets.
+
 ## Background Context
 This project is designed for groups of two students, practicing pair programming for at least the mandatory part.
 

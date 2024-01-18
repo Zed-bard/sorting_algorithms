@@ -98,13 +98,13 @@ typedef struct listint_s
     struct listint_s *prev;
     struct listint_s *next;
 } listint_t;
+
 # Author
 
 - Name: Alexandre Gautier
 - Weight: 2
 
 ## Project Details
-
-- Team Members: Zerihun Shiferaw, Ermiyas Solomon
+- Team Members: `Zerihun Shiferaw`, `Ermiyas Solomon`
 - Project Start Date: Jan 16, 2024 7:00 PM
 - Project End Date: Jan 23, 2024 7:00 PM

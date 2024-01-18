@@ -1,35 +1,33 @@
-# 0x1B. C - Sorting algorithms & Big O
+# Sorting Algorithms & Big O Analysis
 
 ## Background Context
-This project is meant to be done by groups of two students. Each group of two should pair program for at least the mandatory part.
+This project is designed for groups of two students, practicing pair programming for at least the mandatory part.
 
-Pair programming is a software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
-
-While reviewing, the observer also considers the "strategic" direction of the work, coming up with ideas for improvements and likely future problems to address. This is intended to free the driver to focus all of their attention on the "tactical" aspects of completing the current task, using the observer as a safety net and guide.
+Pair programming is a collaborative software development technique where two programmers work together at one workstation. One, known as the driver, writes the code, while the other, the observer or navigator, reviews each line of code as it is typed. The roles are switched frequently, with the observer also considering the strategic direction of the work.
 
 ## Requirements
 
 ### General
 - Allowed editors: vi, vim, emacs
-- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
-- Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
-- You are not allowed to use global variables
-- No more than 5 functions per file
-- Unless specified otherwise, you are not allowed to use the standard library. Any use of functions like `printf`, `puts`, … is totally forbidden.
-- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
-- The prototypes of all your functions should be included in your header file called `sort.h`
-- Don’t forget to push your header file
-- All your header files should be include guarded
-- A list/array does not need to be sorted if its size is less than 2.
+- Compilation on Ubuntu 20.04 LTS using gcc with options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All files must end with a new line
+- A mandatory README.md file at the root of the project folder
+- Code should adhere to the Betty style, checked using `betty-style.pl` and `betty-doc.pl`
+- Avoid the use of global variables
+- Limit of 5 functions per file
+- Prohibition of standard library functions unless specified otherwise (e.g., `printf`, `puts`, etc.)
+- `main.c` files provided as examples for testing functions, but not required to be pushed to the repository
+- Prototypes of all functions included in the header file `sort.h`
+- Push the header file with proper include guards
+- A list/array doesn't need to be sorted if its size is less than 2.
 
 ### GitHub
-- There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
+- One project repository per group; cloning/forking a project repository with the same name before the second deadline may result in a 0% score.
 
 ## More Info
+
 ### Data Structure and Functions
-For this project you are given the following `print_array`, and `print_list` functions:
+For this project, you have access to the following functions:
 
 ```c
 #include <stdlib.h>
@@ -55,6 +53,7 @@ void print_array(const int *array, size_t size)
     }
     printf("\n");
 }
+
 #include <stdio.h>
 #include "sort.h"
 
@@ -78,13 +77,15 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
-Our files print_array.c and print_list.c (containing the print_array and print_list functions) will be compiled with your functions during the correction.
+```
 
+Our files `print_array.c` and `print_list.c` (containing the `print_array` and `print_list` functions) will be compiled with your functions during the correction.
 
-Please declare the prototype of the functions print_array and print_list in your sort.h header file.
+**Please declare the prototype of the functions `print_array` and `print_list` in your `sort.h` header file.**
 
+Use the following data structure for the doubly linked list:
 
-Please use the following data structure for doubly linked list:
+```c
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -98,16 +99,22 @@ typedef struct listint_s
     struct listint_s *prev;
     struct listint_s *next;
 } listint_t;
+```
 
+Keep this section separate from the above code.
 
-Pair programming allows team members to share quickly, making them less likely to have agendas hidden from each other. This helps pair programmers learn to communicate more easily. "This raises the communication bandwidth and frequency within the project, increasing overall information flow within the team
-
-# Author or coordinator of the project
-
-- Name: **Alexandre Gautier**
-- Weight: 2
+Pair programming allows team members to share quickly, making them less likely to have hidden agendas from each other. This helps pair programmers learn to communicate more easily, raising the communication bandwidth and frequency within the project, increasing overall information flow within the team.
 
 ## Project Details
-- Team Members: `Zerihun Shiferaw`, `Ermiyas Solomon`
-- Project Start Date: Jan 16, 2024 7:00 PM
-- Project End Date: Jan 23, 2024 7:00 PM
+
+### Author or Coordinator
+- **Name:** Alexandre Gautier
+- **Weight:** 2
+
+### Team Members
+- `Zerihun Shiferaw`
+- `Ermiyas Solomon`
+
+### Project Timeline
+- **Start Date:** Jan 16, 2024 7:00 PM
+- **End Date:** Jan 23, 2024 7:00 PM

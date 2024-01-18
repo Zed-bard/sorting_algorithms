@@ -99,9 +99,12 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-# Author
 
-- Name: Alexandre Gautier
+Pair programming allows team members to share quickly, making them less likely to have agendas hidden from each other. This helps pair programmers learn to communicate more easily. "This raises the communication bandwidth and frequency within the project, increasing overall information flow within the team
+
+# Author or coordinator of the project
+
+- Name: **Alexandre Gautier**
 - Weight: 2
 
 ## Project Details
